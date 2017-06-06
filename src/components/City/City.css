@@ -1,8 +1,24 @@
+.City {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .City-Image-Container {
   overflow: hidden;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .City-Image {
-  background-size: cover; 
+  background-size: cover;
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.City-Caption {
+  text-align: center;
 }
