@@ -8,7 +8,7 @@ class CityPage extends Component {
 
   render() {
     return (
-      <h1>citypage</h1>
+      <h1>{this.props.match.params.name}</h1>
     )
   }
 }

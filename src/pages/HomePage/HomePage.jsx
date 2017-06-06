@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './HomePage.css';
 import NavBar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
-import City from '../../components/City/City';
+import CityList from '../../components/CityList/CityList';
 import citiesAPI from '../../utils/citiesAPI';
 
 class HomePage extends Component {
@@ -29,7 +29,7 @@ class HomePage extends Component {
           handleLogout={this.props.handleLogout}
         />
         <Header />
-        <City cities={this.state.cities} />
+        <CityList cities={this.state.cities} />
       </div>
     );
   }

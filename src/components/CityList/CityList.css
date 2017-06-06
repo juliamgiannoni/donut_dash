@@ -1,4 +1,4 @@
-.City {
+.CityList {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -7,19 +7,19 @@
 }
 
 
-.City-Image-Container {
+.CityList-Image-Container {
   overflow: hidden;
   padding: 5px;
   margin: 0 auto;
 }
 
-.City-Image {
+.CityList-Image {
   background-size: cover;
   max-height: 200px;
   display: block;
   margin: 0 auto;
 }
 
-.City-Caption {
+.CityList-Caption {
   text-align: center;
 }
