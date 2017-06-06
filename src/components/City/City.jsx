@@ -1,18 +1,16 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './City.css';
 
 const City = (props) => {
   return (
     <div className='City'>
-      <div className='City-Image col-xs-6 col-sm-4'>
-        city
-      </div>
-      <div className='City-Image col-xs-6 col-sm-4'>
-        city
-      </div>
-      <div className='City-Image col-xs-6 col-sm-4'>
-        city
-      </div>
+      {props.cities.map(city =>
+        <div key={city.name} className='City-Image-Container col-xs-6 col-sm-4'>
+          <img className='City-Image' src={city.image}/>
+          <p><Link to='/city/name'>{city.name}</Link></p>
+        </div>
+      )}
     </div>
   )
 }

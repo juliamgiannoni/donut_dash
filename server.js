@@ -20,6 +20,8 @@ app.use(require('./config/auth'));
 
 app.use('/api/customers', require('./routes/api/customers'));
 
+app.use('/api/cities', require('./routes/api/cities'));
+
 app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });

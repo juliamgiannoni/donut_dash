@@ -11,6 +11,7 @@ import customerService from '../../utils/customerService';
 import SignupPage from '../SignupPage/SignupPage';
 import LoginPage from '../LoginPage/LoginPage';
 import HomePage from '../HomePage/HomePage';
+import CityPage from '../CityPage/CityPage';
 
 class App extends Component {
   constructor(props) {
@@ -51,6 +52,9 @@ class App extends Component {
                 handleLogout={this.handleLogout}
               />
             }/>
+            <Route exact path='/city/:name' render={(props) =>
+              <CityPage {...props} />}/>
+            />
             <Route exact path='/signup' render={(props) => 
               <SignupPage 
                 {...props}
