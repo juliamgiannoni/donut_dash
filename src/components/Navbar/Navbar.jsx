@@ -17,7 +17,7 @@ const Navbar = (props) => {
     <div>
       <nav className='navbar navbar-default navbar-fixed-top'>
         <div className='container'>
-          <a class='navbar-brand' href=''>Donut Logo</a>
+          <Link to='/' className='navbar-brand'>Donut Logo</Link>
           {nav}
         </div>
       </nav>

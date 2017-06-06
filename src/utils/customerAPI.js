@@ -10,7 +10,7 @@ function signup(customer) {
     if (res.ok) return res.json();
     throw new Error('Email already taken!');
   })
-  .then(data => data);
+  .then(({token}) => token);
 }
 
 function login(customer) {
@@ -23,7 +23,7 @@ function login(customer) {
     if (res.ok) return res.json();
     throw new Error('Bad credentials');
   })
-  .then(token => token);
+  .then(({token}) => token);
 }
 
 export default {
