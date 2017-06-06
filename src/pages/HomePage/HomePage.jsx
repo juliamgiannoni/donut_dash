@@ -1,8 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import './HomePage.css';
 import NavBar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
+import City from '../../components/City/City';
 
 const HomePage = (props) => {
   return (
@@ -12,6 +13,7 @@ const HomePage = (props) => {
         handleLogout={props.handleLogout}
       />
       <Header />
+      <City />
     </div>
   );
 }
