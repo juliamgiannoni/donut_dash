@@ -17,7 +17,6 @@ class SignupForm extends Component {
   handleChange = (field, e) => {
     this.props.updateMessage('');
     this.setState({
-      // Using ES2015 Computed Property Names
       [field]: e.target.value
     });
   }

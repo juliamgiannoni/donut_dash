@@ -12,6 +12,13 @@ class LoginForm extends Component {
     }
   }
 
+  handleChange = (field, e) => {
+    this.props.updateMessage('');
+    this.setState({
+      [field]: e.target.value
+    });
+  }
+
   handleSubmit = (e) => {
     e.preventDefault();
     let self = this;
@@ -20,13 +27,7 @@ class LoginForm extends Component {
         self.props.handleLogin();
         self.props.history.push('/');
       })
-      .catch(err => alert('Invalid credentials!'));
-  }
-
-  handleChange = (field, e) => {
-    this.setState({
-      [field]: e.target.value
-    });
+      .catch(err => self.props.updateMessage(err.message));
   }
 
   render() {
