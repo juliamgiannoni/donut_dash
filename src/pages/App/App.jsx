@@ -42,7 +42,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className='container App-container'>
         <header className=''>HEADER</header>
         <Router>
           <Switch>
