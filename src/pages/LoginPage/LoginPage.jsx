@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import LoginForm from '../../components/LoginForm/LoginForm';
 import NavBar from '../../components/Navbar/Navbar';
+import Header from '../../components/Header/Header';
 import './LoginPage.css';
 
 class LoginPage extends Component {
@@ -21,6 +22,7 @@ class LoginPage extends Component {
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />
+        <Header />
         <LoginForm 
           {...this.props}
           updateMessage={this.updateMessage}

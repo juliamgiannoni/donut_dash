@@ -7,11 +7,11 @@ import Header from '../../components/Header/Header';
 const HomePage = (props) => {
   return (
     <div className='HomePage'>
-      <Header />
       <NavBar
         customer={props.customer}
         handleLogout={props.handleLogout}
       />
+      <Header />
     </div>
   );
 }

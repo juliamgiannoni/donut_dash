@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SignupForm from '../../components/SignupForm/SignupForm';
 import NavBar from '../../components/Navbar/Navbar';
+import Header from '../../components/Header/Header';
 import './SignupPage.css';
 
 class SignupPage extends Component {
@@ -20,6 +21,7 @@ class SignupPage extends Component {
         customer={this.props.customer}
         handleLogout={this.props.handleLogout}
         />
+        <Header />
         <SignupForm 
           {...this.props} 
           updateMessage={this.updateMessage}
