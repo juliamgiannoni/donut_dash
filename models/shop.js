@@ -10,6 +10,7 @@ var productSchema = new Schema({
 var shopSchema = new Schema({
   name: String,
   city: String,
+  image: String,
   products: [productSchema]
 
 }, {

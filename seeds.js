@@ -6,7 +6,8 @@ Shop.remove({}).then(res => {
   Shop.create([
     {
       name: 'Dunkin Donuts',
-      city: 'Los Angeles'
+      city: 'boston',
+      image: 'http://crevisio.com/images/posts/132/YyNnsKJsu/Crevisio-132-YyNnsKJsu.jpg'
     }
   ]).then(res => {
     process.exit();
