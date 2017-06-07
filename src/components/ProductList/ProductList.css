@@ -21,4 +21,15 @@
 
 .ProductList-Caption {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+}
+
+.ProductList-Name {
+  font-size: 20px;
+}
+
+.ProductList-Price {
+  font-size: 15px;
+  line-height: 5px;
 }
