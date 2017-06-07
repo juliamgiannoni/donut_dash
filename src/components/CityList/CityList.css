@@ -21,4 +21,7 @@
 
 .CityList-Caption {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
 }

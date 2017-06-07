@@ -340,7 +340,7 @@ Shop.remove({}).then(res => {
           image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
     },
 
-    { name: 'Do-Rite Donuts & Coffe',
+    { name: 'Do-Rite Donuts & Coffee',
       city: 'Chicago',
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '50 West Randolph St, Chicago, IL 60601',

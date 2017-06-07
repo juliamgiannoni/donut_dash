@@ -2,4 +2,22 @@
   background-color: pink;
   height: 100px;
   width: 100%;
+  display: table;
+}
+
+.Header-Text {
+  font-family: 'Codystar', cursive;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.Header-Text-City {
+  letter-spacing: 8px;
+  font-size: 60px;
+}
+
+.Header-Text-Shop {
+  letter-spacing: 5px;
+  font-size: 40px;
 }

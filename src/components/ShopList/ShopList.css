@@ -29,4 +29,19 @@
 
 .ShopList-Caption {
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+}
+
+.ShopList-Name {
+  font-size: 20px;
+}
+
+.ShopList-Name:hover {
+  text-decoration: none;
+}
+
+.ShopList-City {
+  font-size: 15px;
+  line-height: 5px;
 }
