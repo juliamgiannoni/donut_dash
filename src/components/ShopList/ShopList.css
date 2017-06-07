@@ -1,0 +1,28 @@
+.ShopList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.ShopList-Map {
+  display: block;
+}
+
+.ShopList-Image-Container {
+  overflow: hidden;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.ShopList-Image {
+  background-size: cover;
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ShopList-Caption {
+  text-align: center;
+}

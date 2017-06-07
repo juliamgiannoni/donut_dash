@@ -4,11 +4,14 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 
 require('dotenv').config();
 require('./config/database');
 
 var app = express();
+
+app.use(cors());
 
 app.use(logger('dev'));
 
@@ -22,9 +25,11 @@ app.use('/api/customers', require('./routes/api/customers'));
 
 app.use('/api/cities', require('./routes/api/cities'));
 
-app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+app.use('/api/shops', require('./routes/api/shops'));
+
+// app.get('/*', function(req, res) {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
 var port = process.env.PORT || 3001;
 

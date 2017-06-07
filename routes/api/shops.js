@@ -4,7 +4,9 @@ var shopsCtrl = require('../../controllers/shops');
 
 /*---------- Protected Routes ----------*/
 
-router.get('/city/:name', shopsCtrl.index);
+console.log('SHOP ROUTER CALLED')
+
+router.get('/', shopsCtrl.index);
 
 
 module.exports = router;
