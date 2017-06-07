@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './CityPage.css';
+import './ShopPage.css';
 import NavBar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
-import ShopList from '../../components/ShopList/ShopList';
+import ProductList from '../../components/ProductList/ProductList';
 import shopsAPI from '../../utils/shopsAPI';
 
-class CityPage extends Component {
+class ShopPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,17 +23,17 @@ class CityPage extends Component {
 
   render() {
     return (
-      <div className='CityPage'>
+      <div className='ShopPage'>
         <NavBar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />
         <Header />
         <h4>{this.props.match.params.name}</h4>
-        <ShopList shops={this.state.shops} />
+        <ProductList products={this.state.shops.products} />
       </div>
     )
   }
 }
 
-export default CityPage;
+export default ShopPage;

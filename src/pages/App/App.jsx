@@ -12,6 +12,7 @@ import SignupPage from '../SignupPage/SignupPage';
 import LoginPage from '../LoginPage/LoginPage';
 import HomePage from '../HomePage/HomePage';
 import CityPage from '../CityPage/CityPage';
+import ShopPage from '../ShopPage/ShopPage';
 
 class App extends Component {
   constructor(props) {
@@ -53,7 +54,10 @@ class App extends Component {
               />
             }/>
             <Route exact path='/city/:name' render={(props) =>
-              <CityPage {...props} />}/>
+              <CityPage {...props} customer={this.state.customer} />}/>
+            />
+            <Route exact path='/city/:name/:shopname' render={(props) =>
+              <ShopPage {...props} customer={this.state.customer} />}/>
             />
             <Route exact path='/signup' render={(props) => 
               <SignupPage 

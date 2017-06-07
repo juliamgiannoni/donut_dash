@@ -27,9 +27,9 @@ app.use('/api/cities', require('./routes/api/cities'));
 
 app.use('/api/shops', require('./routes/api/shops'));
 
-// app.get('/*', function(req, res) {
-//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
-// });
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 var port = process.env.PORT || 3001;
 
