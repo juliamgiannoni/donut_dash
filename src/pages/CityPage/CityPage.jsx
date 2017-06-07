@@ -30,7 +30,7 @@ class CityPage extends Component {
           handleLogout={this.props.handleLogout}
         />
         <Header />
-        <h1>this is the {this.props.match.params.name} page</h1>
+        <h4>{this.props.match.params.name}</h4>
         <ShopList shops={this.state.shops} />
       </div>
     )

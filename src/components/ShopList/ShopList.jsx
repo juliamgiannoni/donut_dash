@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom';
 import './ShopList.css';
 
 const ShopList = (props) => {
-  console.log('this is the city name', window.location.pathname.split('/')[2].replace(/%20/g, ' '))
-  console.log('this is props', props)
   var cityURL = window.location.pathname.split('/')[2].replace(/%20/g, ' ');
 
   let matchedCities = props.shops.filter(shop => shop.city === cityURL).map(shop => {
