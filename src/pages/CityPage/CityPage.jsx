@@ -13,8 +13,8 @@ class CityPage extends Component {
       shops: []
     }
   }
+
   componentDidMount() {
-    console.log(this.props.match.params.name);
     let self = this;
     shopsAPI.index()
     .then(shops => self.setState({
