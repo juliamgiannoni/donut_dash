@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Redirect
+  Route
 } from 'react-router-dom';
-import logo from '../../logo.svg';
 import './App.css';
 import customerService from '../../utils/customerService';
 import SignupPage from '../SignupPage/SignupPage';
@@ -17,7 +15,9 @@ import ShopPage from '../ShopPage/ShopPage';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      customer: null
+    }
   }
 
   /*---------- Callback Methods ----------*/
@@ -32,6 +32,10 @@ class App extends Component {
   }
 
   handleLogin = () => {
+    this.setState({customer: customerService.getCustomer()});
+  }
+
+  handleUpdateCart = () => {
     this.setState({customer: customerService.getCustomer()});
   }
 
@@ -57,6 +61,7 @@ class App extends Component {
               <CityPage 
                 {...props} 
                 customer={this.state.customer} 
+                handleLogout={this.handleLogout}
               />
             }/>
             />
@@ -64,6 +69,8 @@ class App extends Component {
               <ShopPage 
                 {...props} 
                 customer={this.state.customer} 
+                handleLogout={this.handleLogout}
+                handleUpdateCart={this.handleUpdateCart}
               />
             }/>
             />

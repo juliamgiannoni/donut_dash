@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = (props) => {
   let nav = props.customer ?
     <ul className='nav navbar-nav navbar-right'>
-      <li className='Navbar-Link'><Link to=''>{props.customer.name}'s Deliveries</Link></li>
+      <li className='Navbar-Link'><Link to=''>{props.customer.name}'s Order</Link></li>
       <li className='Navbar-Link'><Link to='' onClick={props.handleLogout}>Log Out</Link></li>
     </ul> :
     <ul className='nav navbar-nav navbar-right'>

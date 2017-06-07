@@ -7,6 +7,9 @@
 }
 
 .ProductList-Image-Container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   overflow: hidden;
   padding: 5px;
   margin: 0 auto;
@@ -22,19 +25,18 @@
 .ProductList-Caption {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  margin-top: 10px;
 }
 
 .ProductList-Name {
+  margin: 10px 0px 5px 0px;
   font-size: 20px;
 }
 
 .ProductList-Price {
-  font-size: 15px;
-  line-height: 5px;
+  font-size: 18px;
+
 }
 
 .ProductList-Button {
-  display: flex;
-  flex-flow: column wrap;
+  text-align: center;
 }

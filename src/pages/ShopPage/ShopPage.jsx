@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import ProductList from '../../components/ProductList/ProductList';
 import shopsAPI from '../../utils/shopsAPI';
+import orderService from '../../utils/orderService';
 
 class ShopPage extends Component {
   constructor(props) {
@@ -12,6 +13,13 @@ class ShopPage extends Component {
       shopName: props.match.params.name,
       products: []
     }
+  }
+
+  addItemToCart = (itemIdx) => {
+    orderService.addItemToCart(this.state.products[itemIdx]).then(() => {
+      console.log(this.props)
+      this.props.handleCartUpdate();
+    });
   }
 
   componentDidMount() {
@@ -38,7 +46,7 @@ class ShopPage extends Component {
           handleLogout={this.props.handleLogout}
         />
         <Header shopName={this.state.shopName} />
-        <ProductList products={this.state.products} />
+        <ProductList products={this.state.products} addItemToCart={this.addItemToCart} />
       </div>
     )
   }

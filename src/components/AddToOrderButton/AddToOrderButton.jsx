@@ -5,8 +5,9 @@ const AddToOrderButton = (props) => {
   return (
     <button
       className='AddToOrderButton'
+      onClick={() => props.addItemToCart(props.itemIdx)}
     >
-      Add To My Order
+      Add To Order
     </button>
   );
 }

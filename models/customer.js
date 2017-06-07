@@ -1,11 +1,23 @@
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 var bcrypt = require('bcrypt');
 const SALT_ROUNDS = 6;
+
+var lineItemSchema = new Schema({
+  quantity: Number,
+  shopName: String,
+  shopCity: String,
+  name: String,
+  price: Number,
+  image: String
+})
 
 var customerSchema = new mongoose.Schema({
   name: String,
   email: {type: String, required: true, lowercase: true, unique: true},
-  password: String
+  password: String,
+  orders: [{ type: Schema.Types.ObjectId, ref: 'Order' }],
+  cart: [lineItemSchema]
 }, {
   timestamps: true
 });
