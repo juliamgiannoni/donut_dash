@@ -37,8 +37,7 @@ class ShopPage extends Component {
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />
-        <Header />
-        <h4>Shops{this.props.match.params.name}</h4>
+        <Header shopName={this.state.shopName} />
         <ProductList products={this.state.products} />
       </div>
     )

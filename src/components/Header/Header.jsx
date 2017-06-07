@@ -4,7 +4,8 @@ import './Header.css';
 const Header = (props) => {
   return (
     <div className='Header'>
-      HEADER
+      {props.shopName}
+      {props.cityName}
     </div>
   );
 };

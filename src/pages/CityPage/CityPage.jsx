@@ -38,8 +38,7 @@ class CityPage extends Component {
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />
-        <Header />
-        <h4>{this.props.match.params.name}</h4>
+        <Header cityName={this.state.cityName} />
         <ShopsMap />
         <ShopList shops={this.state.shops} />
       </div>

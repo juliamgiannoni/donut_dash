@@ -8,8 +8,8 @@ const ShopList = (props) => {
     <div className='ShopList'>
       {props.shops.map(shop =>
         <div key={shop.name} className='ShopList-Image-Container col-xs-6 col-sm-4'>
-          <img className='ShopList-Image' src={shop.image} alt='shops' />
-          <p className='ShopList-Caption'><Link to={`/shop/${shop.name}`}>{shop.name}</Link></p>
+          <Link to={`/shop/${shop.name}`}><img className='ShopList-Image' src={shop.image} alt='shops' /></Link>
+          <p className='ShopList-Caption'>{shop.name}</p>
           <p className='ShopList-Caption'>{shop.city}</p>
         </div>
       )}
