@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductList.css';
+import AddToOrderButton from '../../components/AddToOrderButton/AddToOrderButton';
 
 const ProductList = (props) => {
 
@@ -12,6 +13,9 @@ const ProductList = (props) => {
           <p className='ProductList-Caption ProductList-Price'>${product.price}</p>
         </div>
       )}
+      <div className='ProductList-Button col-xs-12 col-sm-4'>
+        <AddToOrderButton />
+      </div>
     </div>
   )
 }

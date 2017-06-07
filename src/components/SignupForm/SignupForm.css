@@ -1,3 +1,18 @@
 .SignupForm {
   width: 300px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.SignupForm-Button {
+  font-size: 15px;
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  border: dotted 2px pink;
+  border-radius: 5px;
+}
+
+.SignupForm-Button:hover {
+  background-color: pink;
+  color: white;
 }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import SignupForm from '../../components/SignupForm/SignupForm';
-import NavBar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import './SignupPage.css';
 
@@ -17,9 +17,9 @@ class SignupPage extends Component {
   render() {
     return (
       <div className='SignupPage'>
-        <NavBar
-        customer={this.props.customer}
-        handleLogout={this.props.handleLogout}
+        <Navbar
+          customer={this.props.customer}
+          handleLogout={this.props.handleLogout}
         />
         <Header />
         <SignupForm 

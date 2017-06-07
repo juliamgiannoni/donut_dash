@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './CityPage.css';
-import NavBar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import ShopList from '../../components/ShopList/ShopList';
 import ShopsMap from '../../components/ShopsMap/ShopsMap';
@@ -34,7 +34,7 @@ class CityPage extends Component {
   render() {
     return (
       <div className='CityPage'>
-        <NavBar
+        <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />

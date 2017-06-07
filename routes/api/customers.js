@@ -7,12 +7,4 @@ var customersCtrl = require('../../controllers/customers');
 router.post('/signup', customersCtrl.signup);
 router.post('/login', customersCtrl.login);
 
-
-
-/*---------- Protected Routes ----------*/
-
-
-
-
-
 module.exports = router;

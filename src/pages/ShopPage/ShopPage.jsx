@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './ShopPage.css';
-import NavBar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import ProductList from '../../components/ProductList/ProductList';
 import shopsAPI from '../../utils/shopsAPI';
@@ -33,7 +33,7 @@ class ShopPage extends Component {
   render() {
     return (
       <div className='ShopPage'>
-        <NavBar
+        <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />
