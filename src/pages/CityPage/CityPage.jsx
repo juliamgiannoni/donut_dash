@@ -9,6 +9,7 @@ class CityPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      cityName: props.match.params.name,
       shops: []
     }
   }
@@ -16,9 +17,17 @@ class CityPage extends Component {
   componentDidMount() {
     let self = this;
     shopsAPI.index()
-    .then(shops => self.setState({
-      shops
-    }));
+    .then(shops => {
+      const thisCity = shops.filter(shop => {
+        return shop.city === this.state.cityName;
+      })
+      self.setState({
+        shops: thisCity
+      })
+    })
+    .catch(err => {
+      //handle error
+    });
   }
 
   render() {

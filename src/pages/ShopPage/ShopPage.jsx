@@ -7,7 +7,6 @@ import shopsAPI from '../../utils/shopsAPI';
 
 class ShopPage extends Component {
   constructor(props) {
-    console.log('props = ', props)
     super(props);
     this.state = {
       shopName: props.match.params.name,
