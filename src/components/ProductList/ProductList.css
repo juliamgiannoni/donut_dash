@@ -1,0 +1,24 @@
+.ProductList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.ProductList-Image-Container {
+  overflow: hidden;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.ProductList-Image {
+  background-size: cover;
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ProductList-Caption {
+  text-align: center;
+}

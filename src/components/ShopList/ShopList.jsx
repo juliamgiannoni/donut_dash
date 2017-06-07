@@ -10,7 +10,7 @@ const ShopList = (props) => {
       return (
         <div key={shop.name} className='ShopList-Image-Container col-xs-6 col-sm-4'>
           <img className='ShopList-Image' src={shop.image} alt='shops' />
-          <p className='ShopList-Caption'><Link to='/'>{shop.name}</Link></p>
+          <p className='ShopList-Caption'><Link to={`/shop/${shop.name}`}>{shop.name}</Link></p>
           <p className='ShopList-Caption'>{shop.city}</p>
         </div>
       )

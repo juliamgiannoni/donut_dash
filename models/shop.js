@@ -12,7 +12,6 @@ var shopSchema = new Schema({
   city: String,
   image: String,
   products: [productSchema]
-
 }, {
   timestamps: true
 })
