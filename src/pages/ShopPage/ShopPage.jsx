@@ -11,12 +11,13 @@ class ShopPage extends Component {
     super(props);
     this.state = {
       shopName: props.match.params.name,
+      shop: {},
       products: []
     }
   }
 
   addItemToCart = (itemIdx) => {
-    orderService.addItemToCart(this.state.products[itemIdx]).then(() => {
+    orderService.addItemToCart(this.state.products[itemIdx], this.state.shop).then(() => {
       this.props.handleCartUpdate();
     });
   }
@@ -25,10 +26,9 @@ class ShopPage extends Component {
     let self = this;
     shopsAPI.index()
       .then(shops => {
-        const thisShop = shops.filter(shop => {
-          return shop.name === this.state.shopName;
-        })[0]
+        const thisShop = shops.find(shop => shop.name === this.state.shopName);
         self.setState({
+          shop: thisShop,
           products: thisShop.products
         })
       })

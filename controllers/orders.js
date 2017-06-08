@@ -6,9 +6,19 @@ var SECRET = process.env.SECRET;
 var ordersController = {
 
   addItemToCart: function(req, res, next) {
+    console.log('orderscontroller STATE: ', this.state)
     Customer.findById(req.customer._id).exec().then(customer => {
       delete req.body._id;
-      customer.cart.push(req.body);
+      customer.cart.push({
+        quantity: 1,
+        shopName: req.body.shopName,
+        shopCity: req.body.shopCity,
+        name: req.body.name,
+        price: req.body.price,
+        image: req.body.image
+      });
+      console.log('orderscontroller REQBODY: ', req.body)
+      console.log('orderscontroller CART: ', customer.cart)
       customer.save().then(() => {
         res.json({token: createJWT(customer)});
       });
@@ -21,28 +31,11 @@ var ordersController = {
     })
   },
 
-  index: function(req, res, next) {
-    Order.find({}, (err, orders) => {
-        res.render('index', { req: req, orders: orders, customer: req.customer });
-    });
-  },
-
-
-
-  edit: function(req, res, next) {
+  updateCart: function(req, res, next) {
     Order.findById(req.params.id, function(err, order) {
       if (err) return res.redirect('/myorders');
       res.render('edit', { order: order, customer: req.customer });
     });
-  },
-
-  update: function(req, res, next) {
-    Order.findByIdAndUpdate(req.params.id, req.body, { new: true }, function(err, order) {
-      order.save(function(err, savedOrder) {
-        if (err) return res.redirect('/');
-        res.redirect('/myorders');
-      });
-    })
   },
 
   delete: function(req, res, next) {
