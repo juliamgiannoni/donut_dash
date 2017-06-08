@@ -6,7 +6,6 @@ var SECRET = process.env.SECRET;
 var ordersController = {
 
   addItemToCart: function(req, res, next) {
-    console.log('orderscontroller STATE: ', this.state)
     Customer.findById(req.customer._id).exec().then(customer => {
       delete req.body._id;
       customer.cart.push({
@@ -17,8 +16,6 @@ var ordersController = {
         price: req.body.price,
         image: req.body.image
       });
-      console.log('orderscontroller REQBODY: ', req.body)
-      console.log('orderscontroller CART: ', customer.cart)
       customer.save().then(() => {
         res.json({token: createJWT(customer)});
       });

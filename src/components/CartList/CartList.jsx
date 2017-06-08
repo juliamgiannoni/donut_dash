@@ -17,7 +17,7 @@ const CartList = (props) => {
         </div>
       )}
       <div className='col-xs-12 col-sm-12 CartList-Button'>
-        <UpdateOrderButton className='CartList-Button' />
+        {props.customer.cart.length >= 1 ? <UpdateOrderButton className='CartList-Button' /> : <h4>You have no donuts in your cart.</h4>}
       </div>
     </div>
   )

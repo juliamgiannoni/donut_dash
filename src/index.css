@@ -6,7 +6,10 @@ body {
   background-color: rgb(255, 201, 210);
   display: flex;
   align-items: center;
-  
+}
+
+body, html {
+  /*cursor: url(https://donutjs.club/img/logo.svg), pointer;*/
 }
 
 a {
@@ -15,4 +18,5 @@ a {
 
 a:hover{
   color: rgb(255, 124, 146);
+  /*cursor: url(https://donutjs.club/img/logo.svg), pointer;*/
 }
