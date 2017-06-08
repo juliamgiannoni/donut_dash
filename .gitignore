@@ -7,7 +7,6 @@
 /coverage
 
 # production
-/build
 /seeds.js
 
 # misc
