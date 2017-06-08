@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var Customer = require('../../models/customer');
 var customersCtrl = require('../../controllers/customers');
 
 /*---------- Public Routes ----------*/

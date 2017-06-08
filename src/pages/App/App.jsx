@@ -43,6 +43,7 @@ class App extends Component {
   /*---------- Lifecycle Methods ----------*/
 
   componentDidMount() {
+    console.log('getting customer')
     let customer = customerService.getCustomer();
     this.setState({customer});
   }
@@ -58,7 +59,7 @@ class App extends Component {
                 handleLogout={this.handleLogout}
               />
             }/>
-            <Route exact path='/mycart' render={(props) =>
+            <Route exact path='/myorder' render={(props) =>
               <CartPage
                 {...props}
                 customer={this.state.customer}

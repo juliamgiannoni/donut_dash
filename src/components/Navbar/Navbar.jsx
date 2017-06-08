@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbar = (props) => {
   let nav = props.customer ?
       <div className='Navbar-Links navbar-right'>
-        <Link className='Navbar-Link' to='/mycart'>{props.customer.name}'s Order  ({props.customer.cart.length})</Link>
+        <Link className='Navbar-Link' to='/myorder'>{props.customer.name}'s Order  ({props.customer.cart.length})</Link>
         <Link className='Navbar-Link' to='' onClick={props.handleLogout}>Log Out</Link> 
       </div> :
       <div className='Navbar-Links navbar-right'>
