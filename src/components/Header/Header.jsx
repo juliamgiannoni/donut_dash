@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 const Header = (props) => {
-  let path = window.location.pathname
+  let path = window.location.pathname;
   if (path === '/') {
     return (
       <div className='Header'>
@@ -32,7 +32,8 @@ const Header = (props) => {
       <div className='Header'>
         <p className='Header-Text Header-Text-Shop'>{props.cityName}{props.shopName}</p>
       </div>
-    )   
+    )
+  }
 };
 
 export default Header;
