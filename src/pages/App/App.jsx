@@ -11,6 +11,7 @@ import LoginPage from '../LoginPage/LoginPage';
 import HomePage from '../HomePage/HomePage';
 import CityPage from '../CityPage/CityPage';
 import ShopPage from '../ShopPage/ShopPage';
+import CartPage from '../CartPage/CartPage';
 
 class App extends Component {
   constructor(props) {
@@ -35,7 +36,7 @@ class App extends Component {
     this.setState({customer: customerService.getCustomer()});
   }
 
-  handleUpdateCart = () => {
+  handleCartUpdate = () => {
     this.setState({customer: customerService.getCustomer()});
   }
 
@@ -48,11 +49,18 @@ class App extends Component {
 
   render() {
     return (
-      <div className='container App-container'>
+      <div className='container App-Container'>
         <Router>
           <Switch>
             <Route exact path='/' render={() =>
               <HomePage
+                customer={this.state.customer}
+                handleLogout={this.handleLogout}
+              />
+            }/>
+            <Route exact path='/mycart' render={(props) =>
+              <CartPage
+                {...props}
                 customer={this.state.customer}
                 handleLogout={this.handleLogout}
               />
@@ -70,7 +78,7 @@ class App extends Component {
                 {...props} 
                 customer={this.state.customer} 
                 handleLogout={this.handleLogout}
-                handleUpdateCart={this.handleUpdateCart}
+                handleCartUpdate={this.handleCartUpdate}
               />
             }/>
             />

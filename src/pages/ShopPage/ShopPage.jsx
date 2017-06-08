@@ -17,7 +17,6 @@ class ShopPage extends Component {
 
   addItemToCart = (itemIdx) => {
     orderService.addItemToCart(this.state.products[itemIdx]).then(() => {
-      console.log(this.props)
       this.props.handleCartUpdate();
     });
   }

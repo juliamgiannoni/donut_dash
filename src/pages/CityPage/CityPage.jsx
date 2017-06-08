@@ -3,7 +3,6 @@ import './CityPage.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import ShopList from '../../components/ShopList/ShopList';
-import ShopsMap from '../../components/ShopsMap/ShopsMap';
 import shopsAPI from '../../utils/shopsAPI';
 
 class CityPage extends Component {
@@ -39,7 +38,6 @@ class CityPage extends Component {
           handleLogout={this.props.handleLogout}
         />
         <Header cityName={this.state.cityName} />
-        <ShopsMap />
         <ShopList shops={this.state.shops} />
       </div>
     )

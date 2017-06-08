@@ -15,25 +15,19 @@ var ordersController = {
     })
   },
 
+  showCart: function(req, res, next) {
+    Customer.findById(req.customer._id).exec().then(customer => {
+      res.render('show', { req: req, customer: req.customer });
+    })
+  },
+
   index: function(req, res, next) {
     Order.find({}, (err, orders) => {
         res.render('index', { req: req, orders: orders, customer: req.customer });
     });
   },
 
-  new: function(req, res, next) {
-    res.render('new', { order: false, customer: req.customer });
-  },
 
-  create: function(req, res, next) {
-    
-  },
-
-  show: function(req, res, next) {
-    Order.findById(req.params.id, (err, order) => {
-      res.render('show', { req: req, order: order, customer: req.customer, orderJSON: orderjson });
-    })
-  },
 
   edit: function(req, res, next) {
     Order.findById(req.params.id, function(err, order) {

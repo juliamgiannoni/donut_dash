@@ -3,7 +3,7 @@ var router = express.Router();
 var ordersController = require('../../controllers/orders');
 
 /*---------- Protected Routes ----------*/
-router.get('/', ordersController.index);
+router.get('/mycart', checkAuth, ordersController.showCart);
 router.post('/additemtocart', checkAuth, ordersController.addItemToCart);
 
 /*----- Helper Functions -----*/

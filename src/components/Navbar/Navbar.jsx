@@ -2,16 +2,17 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 
+
 const Navbar = (props) => {
   let nav = props.customer ?
-    <ul className='nav navbar-nav navbar-right'>
-      <li className='Navbar-Link'><Link to=''>{props.customer.name}'s Order</Link></li>
-      <li className='Navbar-Link'><Link to='' onClick={props.handleLogout}>Log Out</Link></li>
-    </ul> :
-    <ul className='nav navbar-nav navbar-right'>
-      <li className='Navbar-Link'><Link to='/login'>Log In</Link></li>
-      <li className='Navbar-Link'><Link to='/signup'>Sign Up</Link></li>
-    </ul>;
+      <div className='Navbar-Links navbar-right'>
+        <Link className='Navbar-Link' to='/mycart'>{props.customer.name}'s Order  ({props.customer.cart.length})</Link>
+        <Link className='Navbar-Link' to='' onClick={props.handleLogout}>Log Out</Link> 
+      </div> :
+      <div className='Navbar-Links navbar-right'>
+        <Link className='Navbar-Link' to='/login'>Log In</Link>
+        <Link className='Navbar-Link' to='/signup'>Sign Up</Link>
+      </div>;
 
   return (
     <div>

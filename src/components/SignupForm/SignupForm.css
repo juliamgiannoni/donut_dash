@@ -1,6 +1,7 @@
 .SignupForm {
   width: 300px;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 25px;
 }
 
 .SignupForm-Button {
