@@ -1,4 +1,4 @@
-var Shop = require('../models/Shop');
+var Shop = require('../models/shop');
 
 function index(req, res) {
   Shop.find({}, function(err, shops) {
