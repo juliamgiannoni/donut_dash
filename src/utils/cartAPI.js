@@ -1,5 +1,5 @@
 import tokenService from './tokenService';
-const BASE_URL = '/api/orders/';
+const BASE_URL = '/api/cart/';
 
 function addItemToCart(item) {
   return fetch(BASE_URL + 'additemtocart', {

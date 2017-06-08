@@ -1,9 +1,8 @@
-var Order = require('./../models/order')
 var Customer = require('./../models/customer')
 var jwt = require('jsonwebtoken');
 var SECRET = process.env.SECRET;
 
-var ordersController = {
+var cartController = {
 
   addItemToCart: function(req, res, next) {
     Customer.findById(req.customer._id).exec().then(customer => {
@@ -29,16 +28,16 @@ var ordersController = {
   },
 
   updateCart: function(req, res, next) {
-    Order.findById(req.params.id, function(err, order) {
-      if (err) return res.redirect('/myorders');
+    Customer.findById(req.params.id, function(err, order) {
+      if (err) return res.redirect('/mycart');
       res.render('edit', { order: order, customer: req.customer });
     });
   },
 
-  delete: function(req, res, next) {
-    Order.findByIdAndRemove(req.params.id, function(err) {
+  purchaseCart: function(req, res, next) {
+    Customer.findByIdAndRemove(req.params.id, function(err) {
       if (err) return res.redirect('/');
-      res.redirect('/myorders');
+      res.redirect('/mycart');
     });
   },
 
@@ -52,4 +51,4 @@ function createJWT(customer) {
   );
 }
 
-module.exports = ordersController;
+module.exports = cartController;

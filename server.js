@@ -27,7 +27,7 @@ app.use('/api/cities', require('./routes/api/cities'));
 
 app.use('/api/shops', require('./routes/api/shops'));
 
-app.use('/api/orders', require('./routes/api/orders'));
+app.use('/api/cart', require('./routes/api/cart'));
 
 app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));

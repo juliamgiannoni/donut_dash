@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var ordersController = require('../../controllers/orders');
+var cartController = require('../../controllers/cart');
 
 /*---------- Protected Routes ----------*/
-router.get('/myorder', checkAuth, ordersController.showCart);
-router.post('/additemtocart', checkAuth, ordersController.addItemToCart);
+router.get('/myorder', checkAuth, cartController.showCart);
+router.post('/additemtocart', checkAuth, cartController.addItemToCart);
 
 /*----- Helper Functions -----*/
 
