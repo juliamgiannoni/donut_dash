@@ -19,7 +19,6 @@ const CartList = (props) => {
             <p className='CartList-Price'>{item.shopCity}</p>
           </div>
         </div>
-        <hr/>
       )}
       <div className='col-xs-12 col-sm-12 CartList-Button'>
         {props.customer.cart.length >= 1 ? <UpdateOrderButton className='CartList-Button' /> : <h4>You have no donuts in your cart.</h4>}
