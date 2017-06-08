@@ -1,4 +1,4 @@
-.LoginForm {
+.CartForm {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -6,7 +6,7 @@
   margin-top: 30px;
 }
 
-.LoginForm-Button {
+.CartForm-Button {
   font-size: 15px;
   width: 300px;
   height: 35px;
@@ -15,10 +15,7 @@
   border-radius: 5px;
 }
 
-.LoginForm-Button:hover {
+.CartForm-Button:hover {
   background-color: white;
   color: pink;
 }
- p {
-   text-align: center;
- }
