@@ -13,23 +13,16 @@ class CartPage extends Component {
     this.state = {
       customer: null
     }
-    console.log('cart page  consturctors')
-    console.log('in constructor this.state =', this.state)
-    console.log('in constructor this.props =', this.props)
   }
 
   /*---------- Lifecycle Methods ----------*/
 
   componentDidMount() {
-    console.log('getting customer aaaaaa')
     let customer = customerService.getCustomer();
     this.setState({customer});
   }
 
   render() {
-    console.log('in render this.state =', this.state)
-    console.log('in render this.props =', this.props)
-    console.log('this is the customer', this.state.customer)
     return (
       <div className='CartPage'>
         <Navbar
@@ -38,7 +31,6 @@ class CartPage extends Component {
         />
         <Header shopName={this.state.shopName} />
         {!this.state.customer ? <h1>loading</h1> : <CartList customer={this.state.customer} /> }
-        this is the cart page
       </div>
     )
   }
