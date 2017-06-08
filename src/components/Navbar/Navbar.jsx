@@ -16,8 +16,8 @@ const Navbar = (props) => {
 
   return (
     <div>
-      <nav className='navbar navbar-default navbar-fixed-top'>
-        <div className='container'>
+      <nav className='navbar navbar-default navbar-static-top'>
+        <div className=''>
           <Link to='/' className='navbar-brand'>Donut Logo</Link>
           {nav}
         </div>

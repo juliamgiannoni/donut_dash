@@ -1,19 +1,21 @@
 .LoginForm {
-  width: 300px;
-  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 25px;
 }
 
 .LoginForm-Button {
   font-size: 15px;
   width: 300px;
-  height: 30px;
-  background-color: white;
-  border: dotted 2px pink;
+  height: 35px;
+  background-color: rgb(227, 186, 244);
+  border: dotted 2px white;
   border-radius: 5px;
 }
 
 .LoginForm-Button:hover {
-  background-color: pink;
-  color: white;
+  background-color: white;
+  color: pink;
 }

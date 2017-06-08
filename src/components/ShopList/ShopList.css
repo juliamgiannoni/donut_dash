@@ -17,7 +17,7 @@
 .ShopList-Image-Container {
   overflow: hidden;
   padding: 5px;
-  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .ShopList-Image {
@@ -29,7 +29,6 @@
 
 .ShopList-Caption {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
   margin-top: 10px;
 }
 

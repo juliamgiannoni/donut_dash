@@ -1,14 +1,13 @@
 .AddToOrderButton {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   height: 35px;
   width: 60%;
-  background-color: white;
-  border: dotted 2px pink;
+  background-color: rgb(154, 232, 244);
+  border: dotted 2px white;
   border-radius: 5px;
 }
 
 .AddToOrderButton:hover {
-  background-color: pink;
-  color: white;
+  background-color: white;
+  color: pink;
 }

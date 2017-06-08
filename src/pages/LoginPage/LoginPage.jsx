@@ -17,13 +17,13 @@ class LoginPage extends Component {
 
   render() {
     return (
-      <div className='LoginPage'>
+      <div>
         <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
         />
         <Header />
-        <LoginForm 
+        <LoginForm
           {...this.props}
           updateMessage={this.updateMessage}
         />

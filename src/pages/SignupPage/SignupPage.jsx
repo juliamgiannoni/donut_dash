@@ -16,7 +16,7 @@ class SignupPage extends Component {
 
   render() {
     return (
-      <div className='SignupPage'>
+      <div>
         <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}

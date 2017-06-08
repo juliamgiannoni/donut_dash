@@ -1,12 +1,21 @@
+.navbar-default {
+  background-color: rgb(255, 201, 210);
+  border-bottom: dotted 4px white;
+  height: 70px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
 .Navbar-Links {
   display: flex;
   flex-flow: row wrap;
 }
 
 .Navbar-Link {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  padding: 15px;
+  padding: 22px;
 }
 
 .Navbar-Link:hover {
