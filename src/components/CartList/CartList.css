@@ -1,38 +1,38 @@
 .CartList {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   margin-top: 25px;
 }
 
-.CartList-Image-Container {
+.CartList-Container {
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: left;
   overflow: hidden;
   padding: 5px;
-  margin: 0 auto;
 }
 
 .CartList-Image {
   background-size: cover;
-  max-height: 200px;
-  display: block;
+  max-width: 300px;
+  display: inline-block;
   margin: 0 auto;
 }
 
-.CartList-Caption {
-  text-align: center;
+.CartList-Details {
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .CartList-Name {
-  margin: 10px 0px 5px 0px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .CartList-Price {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .CartList-Button {
