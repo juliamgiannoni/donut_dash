@@ -20,3 +20,9 @@ a:hover{
   color: rgb(255, 124, 146);
   /*cursor: url(https://donutjs.club/img/logo.svg), pointer;*/
 }
+
+hr {
+  width: 100%;
+  border-top: dotted 4px white;
+  margin: 0;
+}
