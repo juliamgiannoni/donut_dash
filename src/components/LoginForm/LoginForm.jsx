@@ -32,7 +32,6 @@ class LoginForm extends Component {
   render() {
     return (
       <div className='LoginForm'>
-        <h4>Log In</h4>
         <form className='form-horizontal' onSubmit={this.handleSubmit} >
           <div className='form-group'>
             <div className='col-sm-12'>
