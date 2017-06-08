@@ -12,7 +12,7 @@
   align-items: center;
   overflow: hidden;
   padding: 5px;
-  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .ProductList-Image {
@@ -20,6 +20,7 @@
   max-height: 200px;
   display: block;
   margin: 0 auto;
+  
 }
 
 .ProductList-Caption {
@@ -33,7 +34,6 @@
 
 .ProductList-Price {
   font-size: 18px;
-
 }
 
 .ProductList-Button {

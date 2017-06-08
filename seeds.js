@@ -124,7 +124,7 @@ Shop.remove({}).then(res => {
       [{  name: 'Tres Leches Donut',
           price: 3,
           image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
-        { name: 'Creme Brûlée Donut',
+        { name: 'Creme Brulee Donut',
           price: 3,
           image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
         {  name: 'Brooklyn Blackout Donut',

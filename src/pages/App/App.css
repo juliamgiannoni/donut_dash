@@ -1,3 +1,7 @@
 .App-Container {
   margin-bottom: 60px;
 }
+
+.container {
+  padding: 0;
+}

@@ -43,7 +43,6 @@ class App extends Component {
   /*---------- Lifecycle Methods ----------*/
 
   componentDidMount() {
-    console.log('getting customer')
     let customer = customerService.getCustomer();
     this.setState({customer});
   }

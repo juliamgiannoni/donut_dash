@@ -3,8 +3,6 @@ import './CartPage.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import CartList from '../../components/CartList/CartList';
-import shopsAPI from '../../utils/shopsAPI';
-import orderService from '../../utils/orderService';
 import customerService from '../../utils/customerService';
 
 class CartPage extends Component {
@@ -30,7 +28,7 @@ class CartPage extends Component {
           handleLogout={this.props.handleLogout}
         />
         <Header shopName={this.state.shopName} />
-        {!this.state.customer ? <h1>loading</h1> : <CartList customer={this.state.customer} /> }
+        {!this.state.customer ? <h1>Cart Loading</h1> : <CartList customer={this.state.customer} /> }
       </div>
     )
   }

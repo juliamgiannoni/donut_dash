@@ -4,6 +4,9 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   background-color: rgb(255, 201, 210);
+  display: flex;
+  align-items: center;
+  
 }
 
 a {
