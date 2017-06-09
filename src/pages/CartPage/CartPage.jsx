@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import CartList from '../../components/CartList/CartList';
 import customerService from '../../utils/customerService';
+import cartService from '../../utils/cartService';
 
 class CartPage extends Component {
   constructor(props) {
@@ -11,6 +12,14 @@ class CartPage extends Component {
     this.state = {
       customer: null
     }
+  }
+
+  clearCart = () => {
+    cartService.clearCart(this.state.products, this.state.shop).then((res) => {
+      this.props.handleCartUpdate();
+      let newCart = this.state.customer.cart = [] 
+      this.setState(() => {customer: newCart })
+    });
   }
 
   /*---------- Lifecycle Methods ----------*/
@@ -32,7 +41,7 @@ class CartPage extends Component {
           <h4 style={{textAlign: 'center', marginTop: 30}} >Please log in to access your order.</h4> : 
           <div>
             <CartList customer={this.state.customer} />
-            <CartForm customer={this.state.customer} />
+            <CartForm customer={this.state.customer} clearCart={this.clearCart}/>
           </div> 
           }
       </div>

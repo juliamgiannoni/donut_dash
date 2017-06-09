@@ -21,6 +21,8 @@ class ShopPage extends Component {
     });
   }
 
+  /*---------- Lifecycle Methods ----------*/
+
   componentDidMount() {
     let self = this;
     shopsAPI.index()

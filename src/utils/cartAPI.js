@@ -14,6 +14,20 @@ function addItemToCart(item) {
   .then(({token}) => token);
 }
 
+function clearCart(item) {
+  return fetch(BASE_URL + 'clearcart', {
+    method: 'GET',
+    headers: new Headers({
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer ' + tokenService.getToken()
+    }),
+    body: JSON.stringify(item)
+  })
+  .then(res => res.json())
+  .then(({token}) => token);
+}
+
 export default {
-  addItemToCart
+  addItemToCart,
+  clearCart
 }

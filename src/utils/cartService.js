@@ -8,6 +8,12 @@ function addItemToCart(item, shop) {
     .then(token => tokenService.setToken(token));
 }
 
+function clearCart(item, shop) {
+  return cartAPI.clearCart(item)
+    .then(token => tokenService.setToken(token));
+}
+
 export default {
-  addItemToCart
+  addItemToCart,
+  clearCart
 };

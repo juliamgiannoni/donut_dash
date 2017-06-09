@@ -28,11 +28,15 @@ var cartController = {
   },
 
   clearCart: function(req, res, next) {
-    Customer.findByIdAndRemove(req.params.id, function(err) {
-      if (err) return res.redirect('/');
-      res.redirect('/mycart');
-    });
+    Customer.findById(req.customer._id).exec().then(customer => {
+      delete req.body._id;
+      customer.cart = [];
+      customer.save().then(() => {
+        res.json({token: createJWT(customer)});
+      });
+    })
   },
+
 
 };
 

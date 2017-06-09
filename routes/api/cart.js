@@ -5,6 +5,7 @@ var cartController = require('../../controllers/cart');
 /*---------- Protected Routes ----------*/
 router.get('/myorder', checkAuth, cartController.showCart);
 router.post('/additemtocart', checkAuth, cartController.addItemToCart);
+router.get('/clearcart', checkAuth, cartController.clearCart);
 
 /*----- Helper Functions -----*/
 

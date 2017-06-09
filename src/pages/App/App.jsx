@@ -63,6 +63,7 @@ class App extends Component {
                 {...props}
                 customer={this.state.customer}
                 handleLogout={this.handleLogout}
+                handleCartUpdate={this.handleCartUpdate}
               />
             }/>
             <Route exact path='/city/:name' render={(props) =>

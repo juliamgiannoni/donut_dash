@@ -4,7 +4,7 @@ import './CartForm.css';
 const CartForm = (props) => {
   if (props.customer.cart.length === 0) {
     return (
-      <h1>noform</h1>
+      <div></div>
     )
   } else {
 
@@ -28,10 +28,10 @@ const CartForm = (props) => {
             </div>
             <div className='form-group'>
               <div className='col-sm-12 text-center'>
-                <button className='CartForm-Button'>Place My Order</button>
               </div>
             </div>
           </form>
+                <button className='CartForm-Button' onClick={() => props.clearCart()} >Place My Ordizzle</button>
         </div>
       )
   }
