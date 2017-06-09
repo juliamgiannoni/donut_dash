@@ -17,8 +17,8 @@ const Navbar = (props) => {
   return (
     <div>
       <nav className='navbar navbar-default navbar-static-top'>
-        <div className=''>
-          <Link to='/' className='navbar-brand'>Donut Logo</Link>
+        <div>
+          <Link to='/' className='navbar-brand'><img className='Navbar-Logo' src='http://i.imgur.com/dIIvXie.png' alt='logo' /></Link>
           {nav}
         </div>
       </nav>

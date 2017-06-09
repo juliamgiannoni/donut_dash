@@ -8,6 +8,15 @@
   margin-bottom: 0px;
 }
 
+.navbar-brand {
+  height: 100%;
+  padding: 0;
+}
+
+.Navbar-Logo {
+  height: 100%;
+}
+
 .Navbar-Links {
   display: flex;
   flex-flow: row wrap;
