@@ -8,13 +8,13 @@
 
 .CityList-Image-Container {
   overflow: hidden;
-  padding: 5px;
+  padding: 20px;
   margin: 0 auto;
 }
 
 .CityList-Image {
   background-size: cover;
-  max-height: 200px;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }

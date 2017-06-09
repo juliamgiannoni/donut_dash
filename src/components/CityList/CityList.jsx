@@ -8,7 +8,6 @@ const CityList = (props) => {
       {props.cities.map(city =>
         <div key={city.name} className='CityList-Image-Container col-xs-10 col-sm-4'>
           <Link to={`/city/${city.name}`}><img className='CityList-Image' src={city.image} alt='cities' /></Link>
-          <p className='CityList-Caption'>{city.name}</p>
         </div>
       )}
     </div>
