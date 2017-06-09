@@ -31,7 +31,7 @@ const CartForm = (props) => {
               </div>
             </div>
           </form>
-                <button className='CartForm-Button' onClick={() => props.clearCart()} >Place My Ordizzle</button>
+                <button className='CartForm-Button' onClick={() => props.clearCart()} >Place My Order</button>
         </div>
       )
   }
