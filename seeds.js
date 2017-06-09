@@ -11,13 +11,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Buttermilk Vanilla Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/24Kt2Ft8H2QKQnfCqWR7og/o.jpg' },
         { name: 'Blueberry Lemon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/oocy1W6f8CSBwcW_CZYIgA/o.jpg'  },
         {  name: 'Original Chocolate Drizzle Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/i65JZbDWqa-H4DbjrVgvOg/o.jpg' }]
     },
 
     { name: 'SK Donuts',
@@ -27,13 +27,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Strawberry Nutella Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/57WRgb4lrJaIXMfZCz_8Nw/348s.jpg' },
         { name: 'Oreo Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/i3X2jSukprP8ZCpg5V3HpA/ls.jpg'  },
         {  name: 'Blueberry Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/VDtIOtT9jWVbjqTp_h8aMg/348s.jpg' }]
     },
 
     { name: 'California Donuts',
@@ -43,13 +43,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Panda Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/zHJMQTajoknSRaVitQDsEA/o.jpg' },
         { name: 'Blueberry Toast Crunch Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/mP3Ju3mQ4jAQipTZoXMBdQ/348s.jpg'  },
         {  name: 'Matcha Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/_3a_JOXZXCg3Xa-XgqCSyw/o.jpg' }]
     },
 
     { name: 'Donut Friend',
@@ -59,13 +59,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Husker Blu Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/auaC_E9rx1B7Fhf6DaOL7w/o.jpg' },
         { name: 'Nutellavision Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/3vgcQF6fb2BZQqsC9TCGlQ/o.jpg'  },
         {  name: 'Coconut of Conformity Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/fdVPqOGeDe_ShI1ohpxgJA/348s.jpg' }]
     },
 
     { name: 'Cafe Dulce',
@@ -75,13 +75,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Bacon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/2Xtv-44eg-sqK0UDbCMaIg/ls.jpg' },
         { name: 'Fruity Pebble Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/9_TrjEHNFKQJG4MICFEGgA/348s.jpg'  },
         {  name: 'Cinnamon Toast Crunch Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/QqS_C3TbEg27Sau8ZDwJXw/o.jpg' }]
     },
 
     { name: `Randy's Donuts`,
@@ -91,13 +91,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Buttermilk Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
-        { name: 'Coconut Donut',
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/FpJQ6HpFvwEg_y7qr6nmWQ/348s.jpg' },
+        { name: 'Chocolate Sprinkles Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
-        {  name: 'Sugar Glazed Donut',
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/heaafncmcF9SCUZcjpMt3w/ls.jpg'  },
+        {  name: 'Glazed Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/P2_sDvuBMUBjMGhPQ5132Q/o.jpg' }]
     },
 
     { name: 'DOUGH',
@@ -107,13 +107,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Chocolate Donut w/ Cacao Nibs',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/brC9ULpVVvuw1rEADPfYYw/o.jpg' },
         { name: 'Dulce De Leche Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/FhkEAWXdDkStiYMNE2Rvbg/o.jpg'  },
         {  name: 'Salted Chocolate Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/aTrZj6B42_q3jWJtCRGPWg/o.jpg' }]
     },
 
     { name: 'Doughnut Plant',
@@ -123,13 +123,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Tres Leches Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/thSo9CoPjKzZfZ623xZ1NA/o.jpg' },
         { name: 'Creme Brulee Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/KwFLq4iwpERjCX_Cnyfj2w/o.jpg'  },
         {  name: 'Brooklyn Blackout Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/5tQhMcJ_H4hzHmIOsZqMeQ/348s.jpg' }]
     },
 
     { name: 'Peter Pan Donut & Pastry Shop',
@@ -139,13 +139,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: `S'mores Donut`,
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/r2RRfOh67dYiHbOrPUI7OA/o.jpg' },
         { name: 'Blueberry Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/81LokDSdEB4hZ95xK8TKYg/348s.jpg'  },
         {  name: 'Cream Crumb Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/XugVsZwC_d1h20ZjpKD5ug/348s.jpg' }]
     },
 
     { name: 'Blackbird Donuts',
@@ -155,45 +155,45 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Blackberry Lavender Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/Xx-iVVtTGWEhCc-tAjeO_Q/348s.jpg' },
         { name: 'Salted Toffee Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/LwUCOOseAz0ymyRQuLVMUg/o.jpg'  },
         {  name: 'Vanilla Glaze Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/3V5OsOfACZrWIoR955z4KA/348s.jpg' }]
     },
 
     { name: 'Union Square Donuts',
       city: 'Boston',
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
-      address: '',
+      address: '20 Bow St, Somerville, MA 02143',
       products: 
       [{  name: 'Sea Salted Bourbon Caramel Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/SfdfXHQBrqAzmYgKKJfmUA/348s.jpg' },
         { name: 'Maple Bacon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/Wdib9zjFbrGZuxJ8v-WjhQ/o.jpg'  },
         {  name: 'Brown Butter Hazelnut Crunch Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/GwsMb5luY7lMHJdjoNmv1w/ls.jpg' }]
     },
 
     { name: `Kane's Donuts`,
       city: 'Boston',
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
-      address: '',
+      address: '90 Oliver St, Boston, MA 02110',
       products: 
       [{  name: 'Hibiscus Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/-k1ZDRfR9h3vzod80UIeHg/o.jpg' },
         { name: 'Turtle Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/M7bfhEHZny95Q0OkyEVXYA/o.jpg'  },
         {  name: 'Maine Blueberry Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/nEMzZtpCyXIUyBPakgpeZA/o.jpg' }]
     },
 
     { name: 'Hypnotic Donuts',
@@ -203,13 +203,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Canadian Healthcare Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/ttgT_ke3cmi_sMbg3LjypQ/o.jpg' },
         { name: 'Evil Elvis Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
-        {  name: 'Old Fashioned Donut',
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/D6RlEPQ_j49RJVF0kbKITw/o.jpg'  },
+        {  name: 'Blueberry Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/R0Y_gtQyqfef9bVvkbBXFQ/258s.jpg' }]
     },
 
     { name: 'Glazed Donut Works',
@@ -219,13 +219,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Blueberry Mascarpone Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/KbP1Sr7XqTukc5Jc02zVgw/ls.jpg' },
         { name: 'Elvis Killer Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
-        {  name: 'Old Fashioned Lemon Poppy Seed Donut',
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/gfy5vycTOf8LhCquoOSeQg/o.jpg'  },
+        {  name: 'Strawberry & Whipped Cream Filled Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/c__tzk4CRqM_qWHIGJv3cQ/o.jpg' }]
     },
 
     { name: 'Jarams Donuts',
@@ -235,13 +235,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Strawberries & Cream Cheese Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/zGIoGfY-ia-dFKQEqsU9tA/o.jpg' },
         { name: 'Ferrero Rocher Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/3ZkTAcTLdqcMfcrDIfHIvA/o.jpg'  },
         {  name: 'Maple & Bacon Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/wDfkTk7ZbXF1ADYNUCaPkg/o.jpg' }]
     },
 
     { name: 'Five Daughters Bakery',
@@ -251,13 +251,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Vanilla Cream Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/o_SB5GhlwFsMvDQtW5qi7A/o.jpg' },
         { name: 'Strawberry Lemonade Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/1A_lgS0LDpV-ahncv3b37g/258s.jpg'  },
         {  name: 'Chocolate Sea Salt Cronut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/orgCevCt4TXoNcUz8zDXlA/348s.jpg' }]
     },
 
     { name: `Fox's Donut Den`,
@@ -267,13 +267,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Cream Filled Chocolate Frosted Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/oYxQlK4yROKuCL2p_jq71Q/o.jpg' },
         { name: 'Cro-Do',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/9cc_LD04xKsWB16yadRnuw/o.jpg'  },
         {  name: 'Glazed Chocolate Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/NRr14zRUImkN_EpccibjUg/258s.jpg' }]
     },
 
     { name: 'Shipley DO-Nuts',
@@ -283,13 +283,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Apple Fritter Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/EAPoee6B9yQw5V8LMZDzoA/ls.jpg' },
         { name: 'Original Glazed Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
-        {  name: 'Chocolate Covered Donuts',
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/XvrHXIERsRdtn_A31F-sGA/ls.jpg'  },
+        {  name: 'Chocolate Covered Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/DOZVSTSElkGSwuPmu87UdQ/348s.jpg' }]
     },
 
     { name: 'Voodoo Donuts',
@@ -299,13 +299,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Old Dirty Bastard Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/LZ1kv2xQBDFikk1K0tceeg/o.jpg' },
         { name: 'Captain My Crunch Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/FlubTdVc9DzKmUEEQJRjYA/ls.jpg'  },
         {  name: 'Memphis Mafia Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/H9zTI9I9oTUzdcajCz-wPg/180s.jpg' }]
     },
 
     { name: 'Blue Star Donuts',
@@ -315,13 +315,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Blueberry Bourbon Basil Glaze Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/vUPQaEQkCtcYdKzWVWT0dg/o.jpg' },
         { name: 'Chocolate Almond Ganache Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/gJ-3BGU7cchhKB0o7tPQQw/o.jpg'  },
         {  name: 'Lemon Poppy Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/ECfNr1EShcFCeihm8qtldg/o.jpg' }]
     },
 
     { name: `Pip's Original Doughnuts`,
@@ -329,15 +329,15 @@ Shop.remove({}).then(res => {
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '4759 NE Fremont St, Portland, OR 97213',
       products: 
-      [{  name: 'Dirty Wu Donut',
+      [{  name: 'Dirty Wu Donuts',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/exJhA8WtqWBQjMcV7o60Ww/348s.jpg' },
         { name: 'Cinnamon Sugar Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/2ZfBOpkznqe2iqn0th5h_g/258s.jpg'  },
         {  name: 'Nutella & Sea Salt Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/i8Pm4Y0fA2QRiPs1sFiiew/348s.jpg' }]
     },
 
     { name: 'Do-Rite Donuts & Coffee',
@@ -347,13 +347,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Pistachio Meyer-Lemon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/lSDH9uufRWVuxvPycxBFJw/258s.jpg' },
         { name: 'Valrhona Chocolate Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/Q6HLzitd10EeH5jRqbYohQ/ls.jpg'  },
         {  name: 'Cinnamon Raised Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/nJZCO16RyFZsTDlWgrBCyw/258s.jpg' }]
     },
 
     { name: 'Firecakes',
@@ -363,13 +363,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Ice Cream Donut Sandwich',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/Cn6MENZP_9fp_5rtpxUmsg/348s.jpg' },
         { name: 'Chocolate Hazelnut Long John Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/LKhAyHNMsxnbOQ8kV9IUqg/348s.jpg'  },
         {  name: 'Triple Chocolate Valrhona Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/AfENKRvquQtljCXbwjr_Aw/180s.jpg' }]
     },
 
     { name: 'The Doughnut Vault',
@@ -379,13 +379,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Chestnut Glazed Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/pXFCxTHg8p5rGVRBv9uiIA/ls.jpg' },
         { name: 'Vanilla Cocoa Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/AgWSq0jdWfidIDu2WMLfdA/ls.jpg'  },
         {  name: 'Pistachio Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/lD-Sy_WMUBXUdhc4yBhs5g/258s.jpg' }]
     },
 
     { name: 'Twisted Donuts & Coffee',
@@ -395,13 +395,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Jalapeño Maple Bacon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: `Blowtorched S'mores Donut`,
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Warriors Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: `Bob’s Donut & Pastry Shop`,
@@ -411,13 +411,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Maple Donut w/ Sprinkles',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Crumb Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Giant Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Dynamo Donut & Coffee',
@@ -427,13 +427,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Maple Glazed Bacon Apple Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Apricot Cardamom Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Lemon Thyme Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'District Doughnut and Coffee',
@@ -443,13 +443,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Brown Butter Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Vanilla Bean Glazed Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Salted Dulce De Leche Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Astro Doughnuts & Fried Chicken',
@@ -459,13 +459,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'PB&J Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Maple Bacon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Vanilla Glazed Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'DC-Donuts',
@@ -475,13 +475,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Maple Bacon Chocolate Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Blackout Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Mini Donuts',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Mighty-O Donuts',
@@ -491,13 +491,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'French Toast Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Don King Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Cocoloco Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Top Pot Doughnuts',
@@ -507,13 +507,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Pink Feather Boa Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Raspberry Glazed Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Cherry Blossom Cake donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Daily Dozen Doughnut',
@@ -523,13 +523,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Plain Mini Donuts',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Cinnamon Mini Donuts',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Powdered Mini Donuts',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Federal Donuts',
@@ -539,13 +539,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Chocolate Covered Strawberry Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Marshmallow Marshmallow Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Cookies & Cream Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: `Beiler's Bakery`,
@@ -555,13 +555,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Blueberry Fritter Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Salted Caramel Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Mocha Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: `Dottie's Donuts`,
@@ -571,13 +571,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Boston Cream Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Pineapple Sugar Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Cinnamon Bun Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Habit Doughnut Dispensary',
@@ -587,13 +587,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Blueberry Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Habit Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Mexican Chocolate Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'The Donut House',
@@ -603,13 +603,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'White Glaze Dipped Cake Donut w/ Nuts ',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Chocolate Dipped Vanilla Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Strawberry & Bavarian Cream Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     },
 
     { name: 'Holy Donuts Dot Coffee',
@@ -619,13 +619,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Samoa Cookie Cake Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' },
+          image: '' },
         { name: 'Maple Bacon Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg'  },
+          image: ''  },
         {  name: 'Lemon Poppyseed Donut',
           price: 3,
-          image: 'https://t4.ftcdn.net/jpg/01/09/72/13/240_F_109721356_4S3ZXUsLGagFwLQTfqeM3UCqgilBa2aU.jpg' }]
+          image: '' }]
     }
 
   ]).then(res => {
