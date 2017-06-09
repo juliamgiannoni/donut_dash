@@ -10,6 +10,10 @@ By Julia Yi
 
 Donut Dash is an donut delivery service where customers can order from various donut shops in 12 different U.S. cities. 
 
+Customers can add donuts from various shops into their order before specifying the time, date, and location for their delivery.
+
+*** This shop does not support pay functionality.
+
 ## Technologies Used
 
 1. HTML
