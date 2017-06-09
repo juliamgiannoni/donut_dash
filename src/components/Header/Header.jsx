@@ -6,7 +6,7 @@ const Header = (props) => {
   if (path === '/') {
     return (
       <div className='Header'>
-        <p className='Header-Text Header-Text-Shop'>Pick a City</p>
+        <p className='Header-Text Header-Text-Shop'>DONUT DASH</p>
       </div>
     )  
   } if (path === '/login') {

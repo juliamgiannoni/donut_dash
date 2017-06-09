@@ -395,13 +395,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Jalapeño Maple Bacon Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/vpgBHcf_R8Xl6efo4wl2vw/o.jpg' },
         { name: `Blowtorched S'mores Donut`,
           price: 3,
-          image: ''  },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/fKwn97qrzdZjBS5V0WmD1g/o.jpg'  },
         {  name: 'Warriors Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/tBE05wepj5He-jjMIkexkw/o.jpg' }]
     },
 
     { name: `Bob’s Donut & Pastry Shop`,
@@ -411,13 +411,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Maple Donut w/ Sprinkles',
           price: 3,
-          image: '' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/N_awiHnWG0TCR2-v-Q_8lg/o.jpg' },
         { name: 'Crumb Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/Z05V9a-WsAl75KTJfSymDg/348s.jpg'  },
         {  name: 'Giant Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/YcleiTZUFyAKw1Y6TWCcmA/o.jpg' }]
     },
 
     { name: 'Dynamo Donut & Coffee',
@@ -427,13 +427,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Maple Glazed Bacon Apple Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/Gy3GBVGdTWKufpjGwLpldw/348s.jpg' },
         { name: 'Apricot Cardamom Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/m3Hn1C-MM-sYd1gT94Oe6g/o.jpg'  },
         {  name: 'Lemon Thyme Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/Olx52wovyUPM50tYgJ4e4Q/o.jpg' }]
     },
 
     { name: 'District Doughnut and Coffee',
@@ -443,13 +443,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Brown Butter Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/9GNK8pLKc0hzs1H6jD_M4g/ls.jpg' },
         { name: 'Vanilla Bean Glazed Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/iqS-8loCpyZ8KlQ323t8jQ/348s.jpg'  },
         {  name: 'Salted Dulce De Leche Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/UNa_AvUyFJYEn6Q3odvDGA/ls.jpg' }]
     },
 
     { name: 'Astro Doughnuts & Fried Chicken',
@@ -459,13 +459,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'PB&J Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/Lt9e9zftkxjbQVs-FLJVOQ/o.jpg' },
         { name: 'Maple Bacon Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/EoDqhFJkhj1CbheM9FJ1Bg/348s.jpg'  },
         {  name: 'Vanilla Glazed Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/bknYoRQvg_J4-bLXkmLMAg/o.jpg' }]
     },
 
     { name: 'DC-Donuts',
@@ -475,13 +475,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Maple Bacon Chocolate Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/LvImg4k23YQ3sKInyBXNhg/180s.jpg' },
         { name: 'Blackout Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/XvFSN4eIu_Yq5M5_KCtSeA/o.jpg'  },
         {  name: 'Mini Donuts',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/n-od1acQRV34r4FWFtYkww/348s.jpg' }]
     },
 
     { name: 'Mighty-O Donuts',
@@ -489,15 +489,15 @@ Shop.remove({}).then(res => {
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '2110 N 55th St, Seattle, WA 98103',
       products: 
-      [{  name: 'French Toast Donut',
+      [{  name: 'Nutty French Toast Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/JtWm6ntLuyOGrOgOs_7Grg/o.jpg' },
         { name: 'Don King Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/oqv4mh5YNd6_1E2Mb67SkQ/180s.jpg'  },
         {  name: 'Cocoloco Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/RNbsVqsAoZ_5wgaErDEIRg/o.jpg' }]
     },
 
     { name: 'Top Pot Doughnuts',
@@ -507,13 +507,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Pink Feather Boa Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/0iyuisj0zPlXN-04FWX3Jg/o.jpg' },
         { name: 'Raspberry Glazed Cake Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/WGn0lTqs3jQ_Pq_uGN_-WQ/ls.jpg'  },
         {  name: 'Cherry Blossom Cake donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/jbDniGSjAg-XEAjRh2X_iw/o.jpg' }]
     },
 
     { name: 'Daily Dozen Doughnut',
@@ -523,13 +523,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Plain Mini Donuts',
           price: 3,
-          image: '' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/YQJJrZcOmqWdOhDR1ApMdQ/258s.jpg' },
         { name: 'Cinnamon Mini Donuts',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/hq3lv5Gxm2_x2IR7CYlpCw/258s.jpg'  },
         {  name: 'Powdered Mini Donuts',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/yNCUaWgkckfL2m8ZOQVAwQ/348s.jpg' }]
     },
 
     { name: 'Federal Donuts',
@@ -537,15 +537,15 @@ Shop.remove({}).then(res => {
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '1632 Sansom St, Philadelphia, PA 19103',
       products: 
-      [{  name: 'Chocolate Covered Strawberry Donut',
+      [{  name: 'Hot Chocolate Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/TS_wL1WDJaQnomY9PO6GZA/348s.jpg' },
         { name: 'Marshmallow Marshmallow Donut',
           price: 3,
-          image: ''  },
-        {  name: 'Cookies & Cream Donut',
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/mrKprrwtZ_yrGzTfBqLOng/ls.jpg'  },
+        {  name: 'Milk & Coffee Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/dmTkU5s2OaEvaBwfDLi8WQ/348s.jpg' }]
     },
 
     { name: `Beiler's Bakery`,
@@ -555,13 +555,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Blueberry Fritter Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/9Qjj8M7gk0jaxYKJzapEzg/348s.jpg' },
         { name: 'Salted Caramel Donut',
           price: 3,
-          image: ''  },
-        {  name: 'Mocha Donut',
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/chsmEHkGLZEJNsC0Z5P1QQ/o.jpg'  },
+        {  name: 'Oreo Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/cbJfhxTovrMUw99HVMkavw/348s.jpg' }]
     },
 
     { name: `Dottie's Donuts`,
@@ -569,15 +569,15 @@ Shop.remove({}).then(res => {
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '4529 Springfield Ave, Philadelphia, PA 19143',
       products: 
-      [{  name: 'Boston Cream Donut',
+      [{  name: 'Peanut Butter & Oreo Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/_XBvDHW3zZ6e42EIQ6muvA/348s.jpg' },
         { name: 'Pineapple Sugar Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/sTZrti6cCY6ykoZCNAOPaw/ls.jpg'  },
         {  name: 'Cinnamon Bun Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/OgBZeb7Gc5OAMXo4QfUjyg/348s.jpg' }]
     },
 
     { name: 'Habit Doughnut Dispensary',
@@ -585,15 +585,15 @@ Shop.remove({}).then(res => {
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '1553 Platte St, Denver, CO 80202',
       products: 
-      [{  name: 'Blueberry Donut',
+      [{  name: 'Mocha Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/TaS-qk6G76hU0LZ0IXkcww/o.jpg' },
         { name: 'Habit Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/T7r_rSg3Xf4Day235CEOgg/258s.jpg'  },
         {  name: 'Mexican Chocolate Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/7uk2A38-nhAL3U8emvwEZA/o.jpg' }]
     },
 
     { name: 'The Donut House',
@@ -601,15 +601,15 @@ Shop.remove({}).then(res => {
       image: 'http://i.imgur.com/ZhHVvjD.jpg',
       address: '3124 S Parker Rd, Aurora, CO 80014',
       products: 
-      [{  name: 'White Glaze Dipped Cake Donut w/ Nuts ',
+      [{  name: 'Maple Donut w/ Nuts ',
           price: 3,
-          image: '' },
-        { name: 'Chocolate Dipped Vanilla Cake Donut',
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/U--72QNkqfUtWGyV8-k3gg/o.jpg' },
+        { name: 'Strawberry Glazed Sprinkle Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media3.fl.yelpcdn.com/bphoto/S7UOG6mhEaf6eRZUGRej8w/o.jpg'  },
         {  name: 'Strawberry & Bavarian Cream Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/90qkWLAUOZlwkBD8ZyJ58A/168s.jpg' }]
     },
 
     { name: 'Holy Donuts Dot Coffee',
@@ -619,13 +619,13 @@ Shop.remove({}).then(res => {
       products: 
       [{  name: 'Samoa Cookie Cake Donut',
           price: 3,
-          image: '' },
+          image: 'https://s3-media1.fl.yelpcdn.com/bphoto/xXemeTtZaBDNyMMKvYNYbQ/o.jpg' },
         { name: 'Maple Bacon Donut',
           price: 3,
-          image: ''  },
+          image: 'https://s3-media4.fl.yelpcdn.com/bphoto/GuvbGhi3voJU11P0t5VQRQ/o.jpg'  },
         {  name: 'Lemon Poppyseed Donut',
           price: 3,
-          image: '' }]
+          image: 'https://s3-media2.fl.yelpcdn.com/bphoto/YNlfKU7ZOJnlz8KM-aKdkw/o.jpg' }]
     }
 
   ]).then(res => {
