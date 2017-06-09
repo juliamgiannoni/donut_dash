@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .SignupForm-Container {
@@ -25,5 +25,9 @@
 .SignupForm-Button:hover {
   background-color: white;
   color: pink;
+}
+
+.SignupForm-Field {
+  margin: 5px 0px;
 }
 
