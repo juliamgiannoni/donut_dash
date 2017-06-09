@@ -6,6 +6,13 @@
   margin-top: 30px;
 }
 
+.SignupForm-Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .SignupForm-Button {
   font-size: 15px;
   width: 300px;
@@ -19,3 +26,4 @@
   background-color: white;
   color: pink;
 }
+

@@ -40,7 +40,8 @@ class SignupForm extends Component {
   render() {
     return (
       <div className='SignupForm'>
-        <form className='form-horizontal' onSubmit={this.handleSubmit} >
+        <div className='SignupForm-Container col-xs-12 col-sm-12'>
+        <form onSubmit={this.handleSubmit} >
           <div className='form-group'>
             <div className='col-sm-12'>
               <input type='text' className='form-control' placeholder='Name' value={this.state.name} onChange={(e) => this.handleChange('name', e)} />
@@ -67,6 +68,7 @@ class SignupForm extends Component {
             </div>
           </div>
         </form>
+        </div>
       </div>
     );
   }

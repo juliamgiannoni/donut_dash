@@ -6,6 +6,13 @@
   margin-top: 30px;
 }
 
+.LoginForm-Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .LoginForm-Button {
   font-size: 15px;
   width: 300px;

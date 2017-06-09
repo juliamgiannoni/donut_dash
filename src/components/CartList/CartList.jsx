@@ -4,7 +4,7 @@ import './CartList.css';
 const CartList = (props) => {
   if (props.customer.cart.length === 0) {
     return (
-      <div>
+      <div className='col-xs-12 col-sm-12'>
         <h4 style={{textAlign: 'center', marginTop: 30}} >There are no donuts in your cart.</h4>
       </div>
     )

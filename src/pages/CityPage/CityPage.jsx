@@ -28,7 +28,7 @@ class CityPage extends Component {
 
   render() {
     return (
-      <div className='CityPage'>
+      <div>
         <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}

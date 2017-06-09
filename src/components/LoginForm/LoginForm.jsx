@@ -32,23 +32,25 @@ class LoginForm extends Component {
   render() {
     return (
       <div className='LoginForm'>
-        <form className='form-horizontal' onSubmit={this.handleSubmit} >
-          <div className='form-group'>
-            <div className='col-sm-12'>
-              <input type='email' className='form-control' placeholder='Email' value={this.state.email} onChange={(e) => this.handleChange('email', e)} />
+        <div className='LoginForm-Container col-xs-12 col-sm-12'>
+          <form onSubmit={this.handleSubmit} >
+            <div className='form-group'>
+              <div className='col-sm-12'>
+                <input type='email' className='form-control' placeholder='Email' value={this.state.email} onChange={(e) => this.handleChange('email', e)} />
+              </div>
             </div>
-          </div>
-          <div className='form-group'>
-            <div className='col-sm-12'>
-              <input type='password' className='form-control' placeholder='Password' value={this.state.pw} onChange={(e) => this.handleChange('pw', e)} />
+            <div className='form-group'>
+              <div className='col-sm-12'>
+                <input type='password' className='form-control' placeholder='Password' value={this.state.pw} onChange={(e) => this.handleChange('pw', e)} />
+              </div>
             </div>
-          </div>
-          <div className='form-group'>
-            <div className='col-sm-12 text-center'>
-              <button className='LoginForm-Button'>Log In</button>
+            <div className='form-group'>
+              <div className='col-sm-12 text-center'>
+                <button className='LoginForm-Button'>Log In</button>
+              </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     );
   }

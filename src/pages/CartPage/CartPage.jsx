@@ -31,7 +31,7 @@ class CartPage extends Component {
 
   render() {
     return (
-      <div className='CartPage'>
+      <div>
         <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}

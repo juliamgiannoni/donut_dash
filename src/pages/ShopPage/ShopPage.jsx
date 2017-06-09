@@ -37,7 +37,7 @@ class ShopPage extends Component {
 
   render() {
     return (
-      <div className='ShopPage'>
+      <div>
         <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}

@@ -22,7 +22,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div className='HomePage'>
+      <div>
         <Navbar
           customer={this.props.customer}
           handleLogout={this.props.handleLogout}
