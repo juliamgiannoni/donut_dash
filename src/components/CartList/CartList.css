@@ -23,15 +23,19 @@
   margin: 0 auto;
 }
 
-.CartList-Details {
+.CartList-Details-Container {
   display: inline-block;
   margin: 0 auto;
+  text-align: left;
 }
 
-.CartList-Name {
+.CartList-Name-Price {
+  text-align: left;
   font-size: 18px;
+
 }
 
-.CartList-Price {
+.CartList-Details {
+  text-align: left;
   font-size: 15px;
 }

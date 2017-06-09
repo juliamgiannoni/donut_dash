@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import SignupForm from '../../components/SignupForm/SignupForm';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
-import './SignupPage.css';
 
 class SignupPage extends Component {
   constructor(props) {

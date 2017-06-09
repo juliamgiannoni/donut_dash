@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './CartPage.css';
 import CartForm from '../../components/CartForm/CartForm';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';

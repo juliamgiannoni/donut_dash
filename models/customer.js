@@ -24,7 +24,6 @@ var customerSchema = new mongoose.Schema({
 
 customerSchema.set('toJSON', {
   transform: function(doc, ret) {
-    // remove the password property when serializing doc to JSON
     delete ret.password;
     return ret;
   }
@@ -40,10 +39,8 @@ customerSchema.methods.comparePassword = function(tryPassword, cb) {
 customerSchema.pre('save', function(next) {
   var customer = this;
   if (!customer.isModified('password')) return next();
-  // password has been changed - salt and hash it
   bcrypt.hash(customer.password, SALT_ROUNDS, function(err, hash) {
     if (err) return next(err);
-    // override the customer provided password with the hash
     customer.password = hash;
     next();
   });

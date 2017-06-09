@@ -8,7 +8,6 @@ function signup(req, res) {
     .then(customer => {
       res.json({token: createJWT(customer)});
     })
-    // customer data invalid
     .catch(err => res.status(400).json(err));
 }
 

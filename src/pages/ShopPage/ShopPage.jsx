@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './ShopPage.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import ProductList from '../../components/ProductList/ProductList';
@@ -31,9 +30,6 @@ class ShopPage extends Component {
           shop: thisShop,
           products: thisShop.products
         })
-      })
-      .catch(err => {
-        // handle the error gracefully
       });
   }
 

@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 mongoose.connect(process.env.DATABASE_URL);
 
 mongoose.Promise = Promise;
-// mongoose.Promise = gloabl.Promise;
 
 const db = mongoose.connection;
 

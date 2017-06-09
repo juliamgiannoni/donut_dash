@@ -27,14 +27,7 @@ var cartController = {
     })
   },
 
-  updateCart: function(req, res, next) {
-    Customer.findById(req.params.id, function(err, order) {
-      if (err) return res.redirect('/mycart');
-      res.render('edit', { order: order, customer: req.customer });
-    });
-  },
-
-  purchaseCart: function(req, res, next) {
+  clearCart: function(req, res, next) {
     Customer.findByIdAndRemove(req.params.id, function(err) {
       if (err) return res.redirect('/');
       res.redirect('/mycart');

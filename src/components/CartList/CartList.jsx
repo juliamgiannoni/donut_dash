@@ -16,10 +16,10 @@ const CartList = (props) => {
             <div className='CartList-Image col-xs-10 col-sm-8'>
               <img className='CartList-Image' src={item.image} alt='items' />
             </div>
-            <div className='CartList-Details col-xs-7 col-sm-4'>
-              <p className='CartList-Name'>{item.name} - ${item.price}</p>
-              <p className='CartList-Price'>Quantity: {item.quantity}</p>
-              <p className='CartList-Price'>{item.shopName} - {item.shopCity}</p>
+            <div className='CartList-Details-Container col-xs-7 col-sm-4'>
+              <p className='CartList-Name-Price'>{item.name} - ${item.price}</p>
+              <p className='CartList-Details'>Quantity: {item.quantity}</p>
+              <p className='CartList-Details'>{item.shopName} - {item.shopCity}</p>
             </div>
           </div>
         )}

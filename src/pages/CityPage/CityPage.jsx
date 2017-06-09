@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './CityPage.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import ShopList from '../../components/ShopList/ShopList';
@@ -24,9 +23,6 @@ class CityPage extends Component {
       self.setState({
         shops: thisCity
       })
-    })
-    .catch(err => {
-      //handle error
     });
   }
 
